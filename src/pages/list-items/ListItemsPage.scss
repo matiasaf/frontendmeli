@@ -1,0 +1,13 @@
+/* RESULTADO DE LA BUSQUEDA*/
+//
+
+.search-results {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 12px;
+
+    a {
+        text-decoration: none;
+    }
+}
