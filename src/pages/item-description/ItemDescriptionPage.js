@@ -24,7 +24,7 @@ export default function ItemDescriptionPage() {
                 setLoadingOn(false);
             }
         } catch (err) {
-            console.error('Se ha producido un error.');
+            console.error('Se ha producido un error.', err);
         }
     }
 

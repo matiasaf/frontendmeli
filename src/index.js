@@ -1,12 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.scss';
-import reportWebVitals from './reportWebVitals';
-import SeachBox from './components/search-box/SearchBox';
-import ListItemsPage from './pages/list-items/ListItemsPage';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import ItemDescription from './components/item-description/ItemDescription';
+import reportWebVitals from './reportWebVitals';
+import ListItemsPage from './pages/list-items/ListItemsPage';
 import ItemDescriptionPage from './pages/item-description/ItemDescriptionPage';
+import './index.scss';
 
 ReactDOM.render(
     <React.StrictMode>
@@ -19,9 +17,6 @@ ReactDOM.render(
                     <Route path="/">
                         <ListItemsPage />
                     </Route>
-                    {/* <Route exact path="/items">
-                        
-                    </Route> */}
                 </Switch>
             </main>
         </Router>

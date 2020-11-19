@@ -9,6 +9,8 @@ function ItemDescription({ item }) {
                 </figure>
             </div>
             <div className="description-data-item">
+                <span>{item.condition == 'new' ? 'Nuevo' : 'Usado'}</span> -
+                <span>{item.sold_quantity}</span> vendidos
                 <div className="description-title-item">
                     <h1>{item.title}</h1>
                 </div>
